@@ -2,6 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
 
+var css = require('./app.css');
+var js = require('./app.js');
+
 import Cervejarias from './components/cervejarias.vue'
 import Cervejas from './components/cervejas.vue'
 
